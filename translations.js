@@ -1,0 +1,27 @@
+// 교과서 첫 단원 본문의 검수된 한국어 해석을 제공합니다.
+window.APP_TRANSLATIONS = {
+  "I’m Jihun.": "저는 지훈이에요.",
+  "My best friend is Minsu.": "제 가장 친한 친구는 민수예요.",
+  "Minsu and I love rock music.": "민수와 저는 록 음악을 좋아해요.",
+  "We are members of the school band Rock It.": "우리는 학교 밴드 '록 잇'의 멤버예요.",
+  "I play the guitar, and Minsu plays the drums.": "저는 기타를 치고 민수는 드럼을 쳐요.",
+  "We are not good players, but we have so much fun together.": "우리는 연주를 잘하지는 못하지만 함께하면 정말 즐거워요.",
+  "With Minsu, I laugh all the time.": "민수와 함께 있으면 저는 항상 웃어요.",
+  "Together, we are happy.": "우리는 함께여서 행복해요.",
+  "I’m Hannah.": "저는 한나예요.",
+  "Mrs. Schmidt, my neighbor, is a dear friend to me.": "이웃인 슈미트 부인은 저에게 소중한 친구예요.",
+  "She is a great listener, and I often talk with her.": "부인은 제 이야기를 잘 들어 주셔서 저는 자주 이야기를 나눠요.",
+  "She doesn’t talk much.": "부인은 말씀을 많이 하지 않으세요.",
+  "She just nods and smiles at me.": "그저 고개를 끄덕이며 저에게 미소 지어 주세요.",
+  "Sometimes I’m sad, and she bakes a cake for me.": "제가 슬플 때면 가끔 저를 위해 케이크를 구워 주세요.",
+  "Her cake is yummy, and I feel all right, like magic.": "부인의 케이크는 맛있고 마법처럼 제 기분이 좋아져요.",
+  "With Mrs. Schmidt, I feel at home.": "슈미트 부인과 함께 있으면 집처럼 편안해요.",
+  "I’m Tim.": "저는 팀이에요.",
+  "Hope is my guide dog and my best friend.": "호프는 제 안내견이자 가장 친한 친구예요.",
+  "She is by my side 24/7.": "호프는 하루 24시간 일주일 내내 제 곁에 있어요.",
+  "She even goes to school with me.": "학교에도 저와 함께 가요.",
+  "Is she a good student?": "호프는 착실한 학생일까요?",
+  "Well, she mostly sleeps in class, but the teachers don’t mind.": "글쎄요, 수업 시간에는 주로 잠을 자지만 선생님들은 괜찮아하세요.",
+  "On weekends, we go to the park and play together.": "주말에는 공원에 가서 함께 놀아요.",
+  "With Hope, I feel free and strong.": "호프와 함께 있으면 자유롭고 힘이 나요."
+};
