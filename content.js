@@ -1355,3 +1355,632 @@ window.BOOK = {
     }
   ]
 };
+
+// 2026-11-01 확인한 공식 자료 및 공개 학습 자료의 접근 경로입니다.
+window.BOOK.grade3Titles = [];
+window.BOOK.resources = [
+  {
+    "grade": 1,
+    "number": null,
+    "label": "공식 교과서 자료실",
+    "url": "https://mh.douclass.com/textbooks/danwon/0_526",
+    "note": "교과서·지도서 PDF, 스마트 교과서, 어휘·음원·워크북·평가 자료. 다운로드 조건은 사이트에서 확인하세요.",
+    "kind": "official"
+  },
+  {
+    "grade": 2,
+    "number": null,
+    "label": "공식 교과서 자료실",
+    "url": "https://mh.douclass.com/textbooks/danwon/0_616",
+    "note": "교과서·지도서 PDF, 스마트 교과서, 어휘·음원·워크북·평가 자료. 다운로드 조건은 사이트에서 확인하세요.",
+    "kind": "official"
+  },
+  {
+    "grade": 3,
+    "number": null,
+    "label": "공식 교과서 소개",
+    "url": "https://promotion.douclass.com/pc/school/details/middle/english_yjm?textbook_id=618",
+    "note": "중3 표지는 확인했으나 2022 개정 본문·자료실 직접 링크는 미확인입니다.",
+    "kind": "official"
+  },
+  {
+    "grade": 1,
+    "number": null,
+    "label": "전 단원 본문·대화문 PDF 모음",
+    "url": "https://englishtutortv.com/22개정-중1-동아-윤정미-1과-2과-3과-4과-5과-6과-7과-8과-전단원/",
+    "note": "2022 개정 1~8과 다운로드 링크 확인. 각 PDF 내용과 완전성은 별도 검수 전입니다.",
+    "kind": "textbook"
+  },
+  {
+    "grade": 2,
+    "number": null,
+    "label": "전 단원 본문·대화문 PDF 모음",
+    "url": "https://englishtutortv.com/중2-동아-윤정미-전단원-대화문-본문-pdf/",
+    "note": "2022 개정 1~8과 다운로드 링크 확인. 각 PDF 내용과 완전성은 별도 검수 전입니다.",
+    "kind": "textbook"
+  },
+  {
+    "grade": 1,
+    "number": 8,
+    "label": "중1 동아 윤정미 8과 본문 빈칸 변형",
+    "url": "https://englishtutortv.com/%ec%a4%911-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-8%ea%b3%bc-%eb%b3%b8%eb%ac%b8-%eb%b9%88%ec%b9%b8-%eb%b3%80%ed%98%95/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 1,
+    "number": 8,
+    "label": "중1 동아 윤정미 8과 대화문 빈칸 변형",
+    "url": "https://englishtutortv.com/%ec%a4%911-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-8%ea%b3%bc-%eb%8c%80%ed%99%94%eb%ac%b8-%eb%b9%88%ec%b9%b8-%eb%b3%80%ed%98%95/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 1,
+    "number": 8,
+    "label": "중1 동아 윤정미 8과 단어 테스트",
+    "url": "https://englishtutortv.com/%ec%a4%911-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-8%ea%b3%bc-%eb%8b%a8%ec%96%b4-%ed%85%8c%ec%8a%a4%ed%8a%b8/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 1,
+    "number": 7,
+    "label": "중1 동아 윤정미 7과 본문 빈칸 변형문제",
+    "url": "https://englishtutortv.com/%ec%a4%911-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-7%ea%b3%bc-%eb%b3%b8%eb%ac%b8-%eb%b9%88%ec%b9%b8-%eb%b3%80%ed%98%95%eb%ac%b8%ec%a0%9c/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 1,
+    "number": 7,
+    "label": "중1 동아 윤정미 7과 대화문 빈칸 변형",
+    "url": "https://englishtutortv.com/%ec%a4%911-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-7%ea%b3%bc-%eb%8c%80%ed%99%94%eb%ac%b8-%eb%b9%88%ec%b9%b8-%eb%b3%80%ed%98%95/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 1,
+    "number": 7,
+    "label": "중1 동아 윤정미 7과 단어 암기 퀴즈",
+    "url": "https://englishtutortv.com/%ec%a4%911-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-7%ea%b3%bc-%eb%8b%a8%ec%96%b4-%ec%95%94%ea%b8%b0-%ed%80%b4%ec%a6%88/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 1,
+    "number": 6,
+    "label": "중1 동아 윤정미 6과 본문 빈칸 [22개정]",
+    "url": "https://englishtutortv.com/%ec%a4%911-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-6%ea%b3%bc-%eb%b3%b8%eb%ac%b8-%eb%b9%88%ec%b9%b8-22%ea%b0%9c%ec%a0%95/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 1,
+    "number": 6,
+    "label": "중1 동아 윤정미 6과 대화문 빈칸 [22개정]",
+    "url": "https://englishtutortv.com/%ec%a4%911-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-6%ea%b3%bc-%eb%8c%80%ed%99%94%eb%ac%b8-%eb%b9%88%ec%b9%b8-22%ea%b0%9c%ec%a0%95/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 1,
+    "number": 6,
+    "label": "중1 동아 윤정미 6과 영단어 테스트",
+    "url": "https://englishtutortv.com/%ec%a4%911-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-6%ea%b3%bc-%ec%98%81%eb%8b%a8%ec%96%b4-%ed%85%8c%ec%8a%a4%ed%8a%b8/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 1,
+    "number": 5,
+    "label": "중1 동아 윤정미 5과 본문 빈칸 [22개정]",
+    "url": "https://englishtutortv.com/%ec%a4%911-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-5%ea%b3%bc-%eb%b3%b8%eb%ac%b8-%eb%b9%88%ec%b9%b8-22%ea%b0%9c%ec%a0%95/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 1,
+    "number": 5,
+    "label": "중1 동아 윤정미 5과 대화문 빈칸 [22개정]",
+    "url": "https://englishtutortv.com/%ec%a4%911-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-5%ea%b3%bc-%eb%8c%80%ed%99%94%eb%ac%b8-%eb%b9%88%ec%b9%b8-22%ea%b0%9c%ec%a0%95/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 1,
+    "number": 5,
+    "label": "중1 동아 윤정미 5과 단어 테스트",
+    "url": "https://englishtutortv.com/%ec%a4%911-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-5%ea%b3%bc-%eb%8b%a8%ec%96%b4-%ed%85%8c%ec%8a%a4%ed%8a%b8/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 1,
+    "number": 4,
+    "label": "중1 영어 동아 윤정미 4과 본문 빈칸 채우기",
+    "url": "https://englishtutortv.com/%ec%a4%911-%ec%98%81%ec%96%b4-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-4%ea%b3%bc-%eb%b3%b8%eb%ac%b8-%eb%b9%88%ec%b9%b8-%ec%b1%84%ec%9a%b0%ea%b8%b0/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 1,
+    "number": 4,
+    "label": "중1 영어 동아 윤정미 4과 대화문 문장별 빈칸",
+    "url": "https://englishtutortv.com/%ec%a4%911-%ec%98%81%ec%96%b4-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-4%ea%b3%bc-%eb%8c%80%ed%99%94%eb%ac%b8-%eb%ac%b8%ec%9e%a5%eb%b3%84-%eb%b9%88%ec%b9%b8/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 1,
+    "number": 4,
+    "label": "중1 동아 윤정미 4과 단어 테스트",
+    "url": "https://englishtutortv.com/%ec%a4%911-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-4%ea%b3%bc-%eb%8b%a8%ec%96%b4-%ed%85%8c%ec%8a%a4%ed%8a%b8/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 1,
+    "number": 3,
+    "label": "중1 동아 윤정미 3과 본문 빈칸 [22개정]",
+    "url": "https://englishtutortv.com/%ec%a4%911-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-3%ea%b3%bc-%eb%b3%b8%eb%ac%b8-%eb%b9%88%ec%b9%b8-22%ea%b0%9c%ec%a0%95/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 1,
+    "number": 3,
+    "label": "중1 동아 윤정미 3과 대화문 빈칸 [22개정]",
+    "url": "https://englishtutortv.com/%ec%a4%911-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-3%ea%b3%bc-%eb%8c%80%ed%99%94%eb%ac%b8-%eb%b9%88%ec%b9%b8-22%ea%b0%9c%ec%a0%95/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 1,
+    "number": 3,
+    "label": "22개정 중1 동아 윤정미 3과 단어 테스트",
+    "url": "https://englishtutortv.com/22%ea%b0%9c%ec%a0%95-%ec%a4%911-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-3%ea%b3%bc-%eb%8b%a8%ec%96%b4-%ed%85%8c%ec%8a%a4%ed%8a%b8/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 1,
+    "number": 2,
+    "label": "중1 동아 윤정미 2과 본문 빈칸 넣기",
+    "url": "https://englishtutortv.com/%ec%a4%911-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-2%ea%b3%bc-%eb%b3%b8%eb%ac%b8-%eb%b9%88%ec%b9%b8-%eb%84%a3%ea%b8%b0/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 1,
+    "number": 2,
+    "label": "중1 동아 윤정미 2과 대화문 빈칸 채우기",
+    "url": "https://englishtutortv.com/%ec%a4%911-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-2%ea%b3%bc-%eb%8c%80%ed%99%94%eb%ac%b8-%eb%b9%88%ec%b9%b8-%ec%b1%84%ec%9a%b0%ea%b8%b0/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 1,
+    "number": 2,
+    "label": "22개정 중1 동아 윤정미 2과 단어 테스트",
+    "url": "https://englishtutortv.com/22%ea%b0%9c%ec%a0%95-%ec%a4%911-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-2%ea%b3%bc-%eb%8b%a8%ec%96%b4-%ed%85%8c%ec%8a%a4%ed%8a%b8/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 1,
+    "number": 1,
+    "label": "중1 동아 윤정미 1과 본문 변형문제",
+    "url": "https://englishtutortv.com/%ec%a4%911-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-1%ea%b3%bc-%eb%b3%b8%eb%ac%b8-%eb%b3%80%ed%98%95%eb%ac%b8%ec%a0%9c/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 1,
+    "number": 1,
+    "label": "중1 동아 윤정미 1과 대화문 빈칸 변형",
+    "url": "https://englishtutortv.com/%ec%a4%911-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-1%ea%b3%bc-%eb%8c%80%ed%99%94%eb%ac%b8-%eb%b9%88%ec%b9%b8-%eb%b3%80%ed%98%95/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 1,
+    "number": 1,
+    "label": "중1 동아 윤정미 1과 영단어 테스트",
+    "url": "https://englishtutortv.com/%ec%a4%911-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-1%ea%b3%bc-%ec%98%81%eb%8b%a8%ec%96%b4-%ed%85%8c%ec%8a%a4%ed%8a%b8/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 1,
+    "number": null,
+    "label": "중1 동아 윤정미 1과 2과 3과 4과 5과 6과 7과 8과 전단원 단어, 학습지",
+    "url": "https://englishtutortv.com/%ec%a4%911-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-1%ea%b3%bc-2%ea%b3%bc-3%ea%b3%bc-4%ea%b3%bc-5%ea%b3%bc-6%ea%b3%bc-7%ea%b3%bc-8%ea%b3%bc-%ec%a0%84%eb%8b%a8%ec%9b%90-%eb%8b%a8%ec%96%b4/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 1,
+    "number": null,
+    "label": "22개정 중1 동아 윤정미 1과 2과 3과 4과 5과 6과 7과 8과 전단원 대화문 본문",
+    "url": "https://englishtutortv.com/22%ea%b0%9c%ec%a0%95-%ec%a4%911-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-1%ea%b3%bc-2%ea%b3%bc-3%ea%b3%bc-4%ea%b3%bc-5%ea%b3%bc-6%ea%b3%bc-7%ea%b3%bc-8%ea%b3%bc-%ec%a0%84%eb%8b%a8%ec%9b%90/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 6,
+    "label": "중2 동아 윤정미 6과 본문 빈칸 [22개정]",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-6%ea%b3%bc-%eb%b3%b8%eb%ac%b8-%eb%b9%88%ec%b9%b8-22%ea%b0%9c%ec%a0%95/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 6,
+    "label": "중2 동아 윤정미 6과 대화문 빈칸 [22개정]",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-6%ea%b3%bc-%eb%8c%80%ed%99%94%eb%ac%b8-%eb%b9%88%ec%b9%b8-22%ea%b0%9c%ec%a0%95/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 6,
+    "label": "중2 동아 윤정미 6과 단어",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-6%ea%b3%bc-%eb%8b%a8%ec%96%b4/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 5,
+    "label": "중2 동아 윤정미 5과 본문 빈칸",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-5%ea%b3%bc-%eb%b3%b8%eb%ac%b8-%eb%b9%88%ec%b9%b8/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 5,
+    "label": "중2 동아 윤정미 5과 대화문 빈칸",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-5%ea%b3%bc-%eb%8c%80%ed%99%94%eb%ac%b8-%eb%b9%88%ec%b9%b8/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 5,
+    "label": "중2 동아 윤정미 5과 단어 테스트 [22개정]",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-5%ea%b3%bc-%eb%8b%a8%ec%96%b4-%ed%85%8c%ec%8a%a4%ed%8a%b8-22%ea%b0%9c%ec%a0%95/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 4,
+    "label": "중2 영어 동아 윤정미 4과 본문 빈칸 퀴즈",
+    "url": "https://englishtutortv.com/%ec%a4%912-%ec%98%81%ec%96%b4-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-4%ea%b3%bc-%eb%b3%b8%eb%ac%b8-%eb%b9%88%ec%b9%b8-%ed%80%b4%ec%a6%88/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 4,
+    "label": "중2 영어 동아 윤정미 4과 대화문 빈칸 퀴즈",
+    "url": "https://englishtutortv.com/%ec%a4%912-%ec%98%81%ec%96%b4-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-4%ea%b3%bc-%eb%8c%80%ed%99%94%eb%ac%b8-%eb%b9%88%ec%b9%b8-%ed%80%b4%ec%a6%88/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 3,
+    "label": "중2 동아 윤정미 3과 본문 빈칸 채우기",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-3%ea%b3%bc-%eb%b3%b8%eb%ac%b8-%eb%b9%88%ec%b9%b8-%ec%b1%84%ec%9a%b0%ea%b8%b0/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 3,
+    "label": "중2 동아 윤정미 3과 대화문 빈칸 퀴즈",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-3%ea%b3%bc-%eb%8c%80%ed%99%94%eb%ac%b8-%eb%b9%88%ec%b9%b8-%ed%80%b4%ec%a6%88/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 4,
+    "label": "중2 동아 윤정미 4과 어휘 학습 자료",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-4%ea%b3%bc-%ec%96%b4%ed%9c%98-%ed%95%99%ec%8a%b5-%ec%9e%90%eb%a3%8c/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 3,
+    "label": "중2 동아 윤정미 3과 단어 [2022 개정]",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-3%ea%b3%bc-%eb%8b%a8%ec%96%b4-2022-%ea%b0%9c%ec%a0%95/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 2,
+    "label": "중2 동아 윤정미 2과 본문 변형문제 (22개정)",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-2%ea%b3%bc-%eb%b3%b8%eb%ac%b8-%eb%b3%80%ed%98%95%eb%ac%b8%ec%a0%9c-22%ea%b0%9c%ec%a0%95/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 2,
+    "label": "중2 동아 윤정미 2과 대화문 변형 (22개정)",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-2%ea%b3%bc-%eb%8c%80%ed%99%94%eb%ac%b8-%eb%b3%80%ed%98%95-22%ea%b0%9c%ec%a0%95/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 1,
+    "label": "중2 동아 윤정미 1과 본문 변형 (22개정)",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-1%ea%b3%bc-%eb%b3%b8%eb%ac%b8-%eb%b3%80%ed%98%95-22%ea%b0%9c%ec%a0%95/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 1,
+    "label": "중2 동아 윤정미 1과 대화문 변형 (22개정)",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-1%ea%b3%bc-%eb%8c%80%ed%99%94%eb%ac%b8-%eb%b3%80%ed%98%95-22%ea%b0%9c%ec%a0%95/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 2,
+    "label": "중2 동아 윤정미 2과 단어 (22개정)",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-2%ea%b3%bc-%eb%8b%a8%ec%96%b4-22%ea%b0%9c%ec%a0%95/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 1,
+    "label": "중2 동아 윤정미 1과 단어 (2022개정)",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-1%ea%b3%bc-%eb%8b%a8%ec%96%b4-2022%ea%b0%9c%ec%a0%95/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": null,
+    "label": "중2 동아 윤정미 전단원 대화문 본문 pdf",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-%ec%a0%84%eb%8b%a8%ec%9b%90-%eb%8c%80%ed%99%94%eb%ac%b8-%eb%b3%b8%eb%ac%b8-pdf/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 8,
+    "label": "중2 동아 윤정미 8과 단어 테스트",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-8%ea%b3%bc-%eb%8b%a8%ec%96%b4-%ed%85%8c%ec%8a%a4%ed%8a%b8/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 3,
+    "label": "중2 동아 윤정미 3과 영어 본문 변형문제",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-3%ea%b3%bc-%ec%98%81%ec%96%b4-%eb%b3%b8%eb%ac%b8-%eb%b3%80%ed%98%95%eb%ac%b8%ec%a0%9c/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 2,
+    "label": "중2 동아 윤정미 2과 본문 영어 변형문제",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-2%ea%b3%bc-%eb%b3%b8%eb%ac%b8-%ec%98%81%ec%96%b4-%eb%b3%80%ed%98%95%eb%ac%b8%ec%a0%9c/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 1,
+    "label": "중2 동아 윤정미 1과 본문 교과서 변형문제",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-1%ea%b3%bc-%eb%b3%b8%eb%ac%b8-%ea%b5%90%ea%b3%bc%ec%84%9c-%eb%b3%80%ed%98%95%eb%ac%b8%ec%a0%9c/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 8,
+    "label": "중2 동아 윤정미 8과 본문 문장별 어법 퀴즈",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-8%ea%b3%bc-%eb%b3%b8%eb%ac%b8-%eb%ac%b8%ec%9e%a5%eb%b3%84-%ec%96%b4%eb%b2%95-%ed%80%b4/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 7,
+    "label": "중2 동아 윤정미 7과 본문 문장별 어법 변형문제",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-7%ea%b3%bc-%eb%b3%b8%eb%ac%b8-%eb%ac%b8%ec%9e%a5%eb%b3%84-%ec%96%b4%eb%b2%95-%eb%b3%80%ed%98%95%eb%ac%b8%ec%a0%9c/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 6,
+    "label": "중2 동아 윤정미 6과 본문 문장별 변형 문제 모음",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-6%ea%b3%bc-%eb%b3%b8%eb%ac%b8-%eb%ac%b8%ec%9e%a5%eb%b3%84-%eb%b3%80%ed%98%95-%eb%ac%b8%ec%a0%9c-%eb%aa%a8%ec%9d%8c/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 5,
+    "label": "중2 동아 윤정미 5과 본문 문장별 변형문제",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-5%ea%b3%bc-%eb%b3%b8%eb%ac%b8-%eb%ac%b8%ec%9e%a5%eb%b3%84-%eb%b3%80%ed%98%95%eb%ac%b8%ec%a0%9c/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 7,
+    "label": "중2 동아 윤정미 7과 단어 암기 테스트",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-7%ea%b3%bc-%eb%8b%a8%ec%96%b4-%ec%95%94%ea%b8%b0-%ed%85%8c%ec%8a%a4%ed%8a%b8/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 6,
+    "label": "중2 동아 윤정미 6과 단어 테스트",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-6%ea%b3%bc-%eb%8b%a8%ec%96%b4-%ed%85%8c%ec%8a%a4%ed%8a%b8/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 5,
+    "label": "중2 동아 윤정미 5과 단어 테스트",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-5%ea%b3%bc-%eb%8b%a8%ec%96%b4-%ed%85%8c%ec%8a%a4%ed%8a%b8/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 4,
+    "label": "중2 동아 윤정미 4과 본문 변형",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-4%ea%b3%bc-%eb%b3%b8%eb%ac%b8-%eb%b3%80%ed%98%95/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 4,
+    "label": "중2 동아 윤정미 4과 대화문 변형",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-4%ea%b3%bc-%eb%8c%80%ed%99%94%eb%ac%b8-%eb%b3%80%ed%98%95/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 3,
+    "label": "중2 동아 윤정미 3과 본문 변형문제",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-3%ea%b3%bc-%eb%b3%b8%eb%ac%b8-%eb%b3%80%ed%98%95%eb%ac%b8%ec%a0%9c/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 3,
+    "label": "중2 동아 윤정미 3과 대화문 변형문제",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-3%ea%b3%bc-%eb%8c%80%ed%99%94%eb%ac%b8-%eb%b3%80%ed%98%95%eb%ac%b8%ec%a0%9c/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 4,
+    "label": "중2 동아 윤정미 4과 단어 테스트",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-4%ea%b3%bc-%eb%8b%a8%ec%96%b4-%ed%85%8c%ec%8a%a4%ed%8a%b8/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 3,
+    "label": "중2 동아 윤정미 3과 단어 테스트",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-3%ea%b3%bc-%eb%8b%a8%ec%96%b4-%ed%85%8c%ec%8a%a4%ed%8a%b8/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 2,
+    "label": "중2 동아 윤정미 2과 영단어 시험",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-2%ea%b3%bc-%ec%98%81%eb%8b%a8%ec%96%b4-%ec%8b%9c%ed%97%98/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 1,
+    "label": "중2 동아 윤정미 1과 영어 단어 시험",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-1%ea%b3%bc-%ec%98%81%ec%96%b4-%eb%8b%a8%ec%96%b4-%ec%8b%9c%ed%97%98/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 2,
+    "label": "중2 동아 윤정미 2과 본문 랜덤 빈칸 퀴즈",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-2%ea%b3%bc-%eb%b3%b8%eb%ac%b8-%eb%9e%9c%eb%8d%a4-%eb%b9%88%ec%b9%b8-%ed%80%b4%ec%a6%88/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 2,
+    "label": "중2 동아 윤정미 2과 대화문 랜덤 빈칸 퀴즈",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-2%ea%b3%bc-%eb%8c%80%ed%99%94%eb%ac%b8-%eb%9e%9c%eb%8d%a4-%eb%b9%88%ec%b9%b8-%ed%80%b4%ec%a6%88/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 1,
+    "label": "중2 동아 윤정미 1과 본문 빈칸 랜덤 퀴즈",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-1%ea%b3%bc-%eb%b3%b8%eb%ac%b8-%eb%b9%88%ec%b9%b8-%eb%9e%9c%eb%8d%a4-%ed%80%b4%ec%a6%88/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 1,
+    "label": "중2 동아 윤정미 1과 대화문 랜덤 빈칸 테스트",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-1%ea%b3%bc-%eb%8c%80%ed%99%94%eb%ac%b8-%eb%9e%9c%eb%8d%a4-%eb%b9%88%ec%b9%b8-%ed%85%8c%ec%8a%a4%ed%8a%b8/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 8,
+    "label": "중2 영어 교과서 동아 윤정미 8과 단어/숙어 모음 (83개 정리)",
+    "url": "https://englishtutortv.com/%ec%a4%912-%ec%98%81%ec%96%b4-%ea%b5%90%ea%b3%bc%ec%84%9c-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-8%ea%b3%bc-%eb%8b%a8%ec%96%b4-%ec%88%99%ec%96%b4-%eb%aa%a8%ec%9d%8c-83%ea%b0%9c-%ec%a0%95/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 7,
+    "label": "중학교 2학년 영어 동아 윤정미 7과 단어 숙어 모음 (77개)",
+    "url": "https://englishtutortv.com/%ec%a4%91%ed%95%99%ea%b5%90-2%ed%95%99%eb%85%84-%ec%98%81%ec%96%b4-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-7%ea%b3%bc-%eb%8b%a8%ec%96%b4-%ec%88%99%ec%96%b4-%eb%aa%a8%ec%9d%8c-77%ea%b0%9c/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 6,
+    "label": "중학교 2학년 영어 교과서 동아 윤정미 6과 단어 모음 (81개 정리)",
+    "url": "https://englishtutortv.com/%ec%a4%91%ed%95%99%ea%b5%90-2%ed%95%99%eb%85%84-%ec%98%81%ec%96%b4-%ea%b5%90%ea%b3%bc%ec%84%9c-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-6%ea%b3%bc-%eb%8b%a8%ec%96%b4-%eb%aa%a8%ec%9d%8c-81/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 5,
+    "label": "중2 영어 동아 윤정미 5과 단어, 숙어 79개 정리",
+    "url": "https://englishtutortv.com/%ec%a4%912-%ec%98%81%ec%96%b4-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-5%ea%b3%bc-%eb%8b%a8%ec%96%b4-%ec%88%99%ec%96%b4-79%ea%b0%9c-%ec%a0%95%eb%a6%ac/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  },
+  {
+    "grade": 2,
+    "number": 4,
+    "label": "중2 동아 윤정미 4과 영어 본문 변형문제",
+    "url": "https://englishtutortv.com/%ec%a4%912-%eb%8f%99%ec%95%84-%ec%9c%a4%ec%a0%95%eb%af%b8-4%ea%b3%bc-%ec%98%81%ec%96%b4-%eb%b3%b8%eb%ac%b8-%eb%b3%80%ed%98%95%eb%ac%b8%ec%a0%9c/",
+    "note": "공개 학습 자료. 게시물의 개정 표시·단원명을 확인하세요. 첨부파일별 검수 전입니다.",
+    "kind": "practice"
+  }
+];
