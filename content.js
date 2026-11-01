@@ -1376,14 +1376,6 @@ window.BOOK.resources = [
     "kind": "official"
   },
   {
-    "grade": 3,
-    "number": null,
-    "label": "공식 교과서 소개",
-    "url": "https://promotion.douclass.com/pc/school/details/middle/english_yjm?textbook_id=618",
-    "note": "중3 표지는 확인했으나 2022 개정 본문·자료실 직접 링크는 미확인입니다.",
-    "kind": "official"
-  },
-  {
     "grade": 1,
     "number": null,
     "label": "전 단원 본문·대화문 PDF 모음",
